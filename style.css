@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.manoj-head{
+  position: relative;
+}
+.bannerr-bg{
+  position: relative;
+}
+.navbar{
+  
+  margin-top: 0px;
+}
+.contact{
+  list-style-type: none;
+  display: flex;
+  gap:50px;
+  margin-bottom: 0;
+}
+.contact-row{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.head-location{
+  margin-bottom: 0;
+}
+.img-fluid{
+  width: 100vw;
+}
+.banner-bg{
+  position: relative;
+}
+.form-container{
+    position: absolute;
+    top: 730px;
+    left: 50px;
+    right: 50px;
+}
+.form-trip{
+  box-shadow: 1px 3px 13px 1px rgba(0,0,0,0.48);
+  border-radius: 20px;
+}
+
+.icon-div input{
+  border-radius: 20px !important;
+  padding: 10px 50px !important;
+  font-size: 16px !important;
+  padding-left: 50px !important;
+}
+.icon-div{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top:calc(50%)
+  
+}
+.user-icon{
+  padding-left: 15px;
+ }
+ .book-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ }
+ .book-btn button{
+   padding: 5px 25px;
+   border-radius: 30px;
+   font-size:15px;
+   background-color:#00AFFF;
+   color: white;
+   border: none;
+}
+.aboutus-bg img{
+  height: 100vh;
+  width: 100%;
+}
+.aboutus-content h1{
+  margin-top: 150px;
+  font-size: 80px;
+  
+}
+.tempo-travel{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.tempo-travel-head{
+  font-weight: 100;
+}
+.tempo-head-cbe{
+  font-weight: 400;
+}
+.tempo-head-content{
+  font-weight: 400;
+}
+.card-1{
+  background: #C0FFF0 !important;
+  border: none !important;
+  border-radius: unset !important;
+  height: 685px !important;
+}
+.card-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card-img img{
+  height: 90px;
+  width:90px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.card-text{
+  font-size: 14px;
+  line-height: 1.8;
+  padding-bottom: 100px;
+}
+.card-bg-2{
+  border-radius: unset !important;
+  border: none !important;
+}
+.card-bg-2 img{
+  border-radius: unset !important;
+  opacity: 0.2;
+  border: none !important;
+  height: 685px;
+}
+.card-img-bg2 img{
+  height: 90px;
+  width:90px;
+  background-color: white;
+  border-radius: 50% !important;
+  padding: 10px;
+  opacity: unset;
+}
+.facilityof-traveler{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+  padding-top: 130px;
+  margin-left: -100px;
+  
+  
+}
+.facility-cars{
+  border-radius: 0px 20px 20px 20px !important;
+  background: linear-gradient(261.9deg, #FFCC49 1.07%, #8C6D00 98.26%);
+  border: unset !important;
+}
+.facility-tempo{
+  border-radius: 0px 20px 20px 20px !important;
+  border: unset !important;
+  background: linear-gradient(261.9deg, #31F3FF 1.07%, #094B5F 98.26%);
+
+}
+.facility-tour{
+  border-radius: 0px 20px 20px 20px !important;
+  border: unset !important;
+  background: linear-gradient(261.9deg, #FF4242 1.07%, #FFADC6 98.26%);
+}
+.facility-friendly{
+  border-radius: 0px 20px 20px 20px !important;
+  border: unset !important;
+  background: linear-gradient(261.9deg, #49FFB3 1.07%, #005536 98.26%);
+}
+.facility-customer{
+  border-radius: 0px 20px 20px 20px !important;
+  border: unset !important;
+  background: linear-gradient(261.9deg, #8B30FF 1.07%, #4745A8 98.26%);
+}
+.facility-booking{
+  border-radius: 0px 20px 20px 20px !important;
+  border: unset !important;
+  background: linear-gradient(261.9deg, #343434 1.07%, #949494 98.26%);
+}
+.list-group{
+    flex-direction: row !important;
+    gap: 100px;
+    display: flex;
+    justify-content: center !important;
+}
+.list-group-item{
+  border: unset !important;
+  border-radius: 5px;
+}
+.list-group-item:hover{
+ 
+  background: #00AFFF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 25px;
+  transition-duration: 1s;
+  cursor:pointer
+
+}
+.facility-cars .card-text{
+  padding-bottom: 0px;
+}
+.circle{
+  height: 550px;
+  width: 550px;
+  background: #07A6FF;
+  border-radius: 50%;
+  margin-top: 50px;
+
+}
+.circle-img img{
+  height: auto;
+}
+.car-content{
+  margin-top: 30%;
+}
+.car-content h1{
+  font-size: 60px;
+}
+.card-location{
+  border: unset !important;
+  display: flex;
+  align-items: end;
+}
+.card-location img{
+  height: 550px !important;
+  border-radius: 10px !important;
+  
+}
+.card-location-trip{
+  display: flex;
+  align-items: end;
+}
+
+
+/* .card-location img{
+    border-radius: 10px;
+     height: 550px;
+}
+.card-location-text{
+  margin-top: 250px; */
+  /* } */
+.testimonial-card{
+    border-radius: 20px !important;
+    border-bottom: unset !important;
+    border-right: unset !important;
+    box-shadow: 14px 17px 33.400001525878906px 4px #0000000A;
+}
+.testimonial-card-body img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.card-star img{
+  width: 150px;
+}
+.faq{
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  box-shadow: 14px 17px 33.400001525878906px 4px #0000000A;
+
+}
+.faq-head-end{
+  font-weight: 100 !important;
+}
+.footer-bg{
+  position: relative;
+}
+.form-group{
+  display: flex;
+  justify-content: center;
+}
+.form-group input{
+  width: 30%;
+  padding: 15px 25px;
+  border-radius: 30px;
+}
+
+.footer-bg{
+  height: 120vh;
+  background: url('./assets/footer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.footer-form{
+  margin-top: 20px;
+}
+.form-button{
+  display: flex;
+  justify-content: center;
+  
+}
+.form-button button{
+  padding: 15px 150px;
+  border-radius: 25px;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+  /* .form-container {
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    right: 25px;
+}
+.banner-1-trip{
+  flex-direction: column;
+}
+.aboutus-content h1 {
+    margin-top: 300px;
+    
+}
+.card-1 .card-bg-2{
+  height: 530px;
+}
+.card-img-traveler{
+  width: 641px !important;
+}
+.card-img-customer-support{
+  width: 641px !important;
+  margin-top: 20px;
+}
+.customer-icon img{
+  height: 90px !important;
+  width: 90px !important;
+}
+.card-1-customer{
+  width: 641px !important;
+} */
+
+.facilityof-traveler{
+  margin-left: 20px !important;
+  padding-top: 0px !important;
+}
+.facilityof-traveler-2{
+  margin-left: 20px !important;
+}
+.facility-friendly{
+  margin-top: 20px;
+}
+.facility-customer{
+  margin-top: 20px;
+}
+.facility-booking{
+  margin-top: 20px;
+}
+.list-group{
+  display: flex;
+  flex-direction: column !important;
+  text-align: center;
+  gap: 10px;
+}
+.circle {
+    height: 480px;
+    width: 480px;
+    background: #07A6FF;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.car-content{
+  margin-top: 50px;
+}
+.card-location{
+  margin-top: 20px;
+}
+.testimonial-card{
+  margin-top: 20px;
+}
+.client-card{
+  margin-top: 30px;
+}
+.client-card-table{
+  margin-top: 30px;
+}
+.form-container {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    right: 25px;
+}
+.banner-1-trip{
+  display: flex;
+  flex-direction: column;
+}
+.aboutus-content h1 {
+    margin-top: 250px;
+}
+.head-location{
+  margin-top: -23px;
+}
+.footer-bg{
+  height: 230vh;
+}
+/* .navbar {
+    margin-top: -320px;
+    
+} */
+}
+
+@media screen and (min-width:1024px){
+
+  /* .navbar {
+    margin-top: -838px;
+} */
+  .facilityof-traveler{
+
+    margin-left: -100px !important;
+   padding-top: 130px !important;
+  }
+  .facilityof-traveler-2{
+    margin-left: 0px !important;
+   padding-top: 130px !important;
+
+  }
+  .facility-friendly{
+  margin-top: 0px;
+}
+
+.list-group{
+  display: flex;
+  flex-direction: row !important;
+  gap: 50px;
+}
+.circle {
+    height: 550px;
+    width: 550px;
+    background: #07A6FF;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.car-content{
+  margin-top: 30%;
+}
+.client-card{
+  margin-top: 100px;
+}
+.client-card-table{
+  margin-top: 100px;
+}
+.form-container {
+    position: absolute;
+    top: 730px;
+    left: 50px;
+    right: 50px;
+}
+.banner-1-trip{
+  display: flex;
+  flex-direction: row;
+}
+.aboutus-content h1 {
+    margin-top: 150px;
+}
+.head-location{
+  margin-top: 0px;
+}
+.footer-bg{
+  height: 120vh;
+}
+  /* .facility-customer{
+    margin-top: 20px;
+  }
+  .facility-booking{
+    margin-top: 20px;
+  } */
+}
+
+
+
+
+
+
