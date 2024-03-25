@@ -154,8 +154,12 @@ html,body{
   gap: 20px;
   padding-top: 130px;
   margin-left: -100px;
-  
-  
+}
+.facilityof-traveler-2{
+  padding-top: 130px !important;
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
 }
 .facility-cars{
   border-radius: 0px 20px 20px 20px !important;
@@ -308,175 +312,86 @@ html,body{
   border-radius: 25px;
 }
 
-
-
-@media only screen and (min-width: 480px) {
-  /* .form-container {
-    position: absolute;
-    top: 220px;
-    left: 25px;
-    right: 25px;
+@media only screen and (max-width: 1024px) {
+  .contact-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
 }
-.banner-1-trip{
-  flex-direction: column;
+
+  
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .manoj-head{
+    display: none !important;
+  }
+  .banner-1-trip{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-container {
+    position: absolute;
+    top: 170px;
+    /* left: 50px; */
+    right: 50px;
 }
 .aboutus-content h1 {
-    margin-top: 300px;
-    
+    margin-top: 200px;
+   
 }
-.card-1 .card-bg-2{
-  height: 530px;
-}
-.card-img-traveler{
-  width: 641px !important;
-}
-.card-img-customer-support{
-  width: 641px !important;
-  margin-top: 20px;
-}
-.customer-icon img{
-  height: 90px !important;
-  width: 90px !important;
-}
-.card-1-customer{
-  width: 641px !important;
-} */
-
 .facilityof-traveler{
-  margin-left: 20px !important;
-  padding-top: 0px !important;
+  margin-left: 25px;
 }
 .facilityof-traveler-2{
-  margin-left: 20px !important;
+  padding-top: 20px !important;
 }
 .facility-friendly{
   margin-top: 20px;
+  margin-left: 25px;
 }
 .facility-customer{
   margin-top: 20px;
+  margin-left: 25px;
 }
 .facility-booking{
   margin-top: 20px;
+  margin-left: 25px;
 }
 .list-group{
   display: flex;
   flex-direction: column !important;
   text-align: center;
-  gap: 10px;
+  gap: 15px;
 }
 .circle {
-    height: 480px;
-    width: 480px;
-    background: #07A6FF;
-    border-radius: 50%;
-    margin-top: 50px;
+    height: 450px;
+    width: 450px;
 }
-.car-content{
-  margin-top: 50px;
-}
-.card-location{
-  margin-top: 20px;
-}
-.testimonial-card{
-  margin-top: 20px;
-}
-.client-card{
-  margin-top: 30px;
-}
-.client-card-table{
-  margin-top: 30px;
-}
-.form-container {
-    position: absolute;
-    top: 200px;
-    left: 25px;
-    right: 25px;
-}
-.banner-1-trip{
+.available-vechiles{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
-.aboutus-content h1 {
-    margin-top: 250px;
+.car-content {
+    margin-top: 30px;
+    text-align: center;
 }
-.head-location{
-  margin-top: -23px;
+.form-group input{
+  width: 72%;
 }
 .footer-bg{
-  height: 230vh;
-}
-/* .navbar {
-    margin-top: -320px;
-    
-} */
+  height: 220vh;
 }
 
-@media screen and (min-width:1024px){
-
-  /* .navbar {
-    margin-top: -838px;
-} */
-  .facilityof-traveler{
-
-    margin-left: -100px !important;
-   padding-top: 130px !important;
-  }
-  .facilityof-traveler-2{
-    margin-left: 0px !important;
-   padding-top: 130px !important;
-
-  }
-  .facility-friendly{
-  margin-top: 0px;
 }
 
-.list-group{
-  display: flex;
-  flex-direction: row !important;
-  gap: 50px;
-}
-.circle {
-    height: 550px;
-    width: 550px;
-    background: #07A6FF;
-    border-radius: 50%;
-    margin-top: 50px;
-}
-.car-content{
-  margin-top: 30%;
-}
-.client-card{
-  margin-top: 100px;
-}
-.client-card-table{
-  margin-top: 100px;
-}
-.form-container {
-    position: absolute;
-    top: 730px;
-    left: 50px;
-    right: 50px;
-}
-.banner-1-trip{
-  display: flex;
-  flex-direction: row;
-}
-.aboutus-content h1 {
-    margin-top: 150px;
-}
-.head-location{
-  margin-top: 0px;
-}
-.footer-bg{
-  height: 120vh;
-}
-  /* .facility-customer{
-    margin-top: 20px;
-  }
-  .facility-booking{
-    margin-top: 20px;
-  } */
-}
+
+
+
+
+
 
 
 
