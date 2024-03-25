@@ -387,6 +387,24 @@ html,body{
 
 }
 
+@media only screen and (max-width: 430px) {
+  .form-container{
+    position: unset;
+    width: 380px !important;
+    top: 85px !important;
+    margin-top: 50px;
+  }
+  .aboutus-content h1 {
+    margin-top: 50px;
+   
+}
+.form-button button {
+    padding: 15px 80px;
+}
+
+
+}
+
 
 
 
