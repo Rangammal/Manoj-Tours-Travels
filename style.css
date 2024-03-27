@@ -43,6 +43,10 @@ html,body{
 .banner-bg{
   position: relative;
 }
+.aboutus-content p{
+  padding: 0px 200px;
+  
+}
 .form-container{
     position: absolute;
     top: 730px;
@@ -328,6 +332,9 @@ html,body{
   .manoj-head{
     display: none !important;
   }
+  .aboutus-content p{
+    padding: 0px !important;
+  }
   .banner-1-trip{
     display: flex;
     flex-direction: column;
@@ -388,11 +395,14 @@ html,body{
 }
 
 @media only screen and (max-width: 430px) {
+  .manoj-head{
+    display: none !important;
+  }
   .form-container{
     position: unset;
     width: 380px !important;
     top: 85px !important;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .aboutus-content h1 {
     margin-top: 50px;
@@ -401,12 +411,127 @@ html,body{
 .form-button button {
     padding: 15px 80px;
 }
-
+.aboutus-content p{
+  text-align: justify;
+  padding: 0px !important;
+  font-size: 12px;
+ 
+}
+.tempo-travel-head {
+  font-size: large;
+}
+.tempo-travel{
+  margin-top: 30px;
+}
+.form-trip{
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+.book-btn button {
+  padding: 10px 110px !important;
+}
+.aboutus-content h1 {
+    margin-top: 10px;
+    font-size: 60px;
+}
+  .tempo-travel{
+    height: auto;
+    margin-top: 20px;
+  }
+.aboutus-bg img {
+    height: 50vh;
+    
+}
+.card-bg-2{
+  margin-top: 20px;
+}
+.card-1{
+  margin-top: 20px;
+}
+.facilityof-traveler{
+  padding-top: 20px;
+}
+.facility-friendly{
+  margin-top: 0px;
+}
+.facility-customer{
+  margin-top: 0px;
+}
+.facility-booking{
+  margin-top: 0px;
+}
+.card-location{
+  margin-top: 10px;
+}
+.testimonial-card{
+  margin-top: 10px;
+}
+.client-card p{
+  font-size: 12px;
+}
+.client-card-table{
+  margin-top: 20px !important;
+}
+.faq-title{
+  margin-top: 30px !important;
+  font-size: larger;
+}
+.footer-bg {
+    height: auto;
+}
+.form-group input {
+    width: 83%;
+}
 
 }
 
 
 
+/* For Mobile Portrait View */
+/* @media screen and (max-device-width: 480px) and (orientation: portrait) {
+
+  .form-container{
+   display: none !important;
+  }
+  .aboutus-content h1 {
+    margin-top: 50px;
+   
+}
+.form-button button {
+    padding: 15px 80px;
+}
+.aboutus-content p{
+  text-align: justify;
+  padding: 0px !important;
+ 
+}
+    
+} */
+ 
+/* For Mobile Landscape View */
+/* @media screen and (max-device-width: 640px) and (orientation: landscape) { */
+  
+/* } */
+ 
+/* For Mobile Phones Portrait or Landscape View */
+/* @media screen and (max-device-width: 640px) {
+  
+} */
+ 
+/* For iPhone 4 Portrait or Landscape View */
+/* @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+} */
+ 
+/* For iPhone 5 Portrait or Landscape View */
+/* @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+} */
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+/* @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  
+} */
 
 
 
