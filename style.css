@@ -296,7 +296,7 @@ html,body{
 }
 
 .footer-bg{
-  height: 120vh;
+  height: auto;
   background: url('./assets/footer.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -315,6 +315,11 @@ html,body{
   padding: 15px 150px;
   border-radius: 25px;
 }
+.img-overlay{
+  background-color: black;
+  opacity: 0.7;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .contact-row {
@@ -474,15 +479,26 @@ html,body{
 }
 .faq-title{
   margin-top: 30px !important;
-  font-size: larger;
+  font-size: x-large;
 }
 .footer-bg {
     height: auto;
 }
+.footer-bg h3{
+    font-size: 20px;
+}
 .form-group input {
     width: 83%;
 }
-
+.book-tempo{
+  margin-top: 0px !important;
+}
+.available-vechile{
+  margin-top: 30px !important;
+}
+.available-vechile-seaters{
+  margin-top: 30px !important;
+}
 }
 
 
